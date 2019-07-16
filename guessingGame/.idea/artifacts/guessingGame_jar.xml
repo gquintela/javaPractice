@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="guessingGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/guessingGame_jar</output-path>
+    <root id="archive" name="guessingGame.jar">
+      <element id="module-output" name="guessingGame" />
+    </root>
+  </artifact>
+</component>

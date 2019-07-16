@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import testForm
+
 
 public class HiLo {
 
