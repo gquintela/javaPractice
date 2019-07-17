@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/simpleCalculator.iml" filepath="$PROJECT_DIR$/simpleCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mcdJava.iml" filepath="$PROJECT_DIR$/mcdJava.iml" />
     </modules>
   </component>
 </project>
