@@ -16,7 +16,22 @@ public class GuessingGame {
     private JLabel numberGuess;
     private JLabel txtNumberGuess;
     private JLabel txtGuessNumber;
+    private JButton playAgainButton;
     private int theNumber;
+
+
+    private void initialSetup(){
+        theNumber = (int) (Math.random() * 100) + 1;
+        guessButton.setVisible(true);
+        txtGuessNumber.setVisible(true);
+        numberField.setVisible(true);
+        numberGuess.setText("0");
+        playAgainButton.setEnabled(false);
+        infoText.setText("Enter a number above and click Guess!");
+        numberField.setText("");
+        numberField.requestFocus();
+        numberField.selectAll();
+    }
 
     private static boolean isNumeric(String strNum) {
         try {
@@ -48,6 +63,7 @@ public class GuessingGame {
                 guessButton.setVisible(false);
                 txtGuessNumber.setVisible(false);
                 numberField.setVisible(false);
+                playAgainButton.setEnabled(true);
                 // System.out.println("You took only " + counter + " guesses!");
             }
         }
@@ -55,9 +71,32 @@ public class GuessingGame {
         numberField.selectAll();
     }
 
-    public static void main(String[] args) {
+    private void setListeners(){
+        numberField.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                int tecla = e.getKeyChar();
+                if (tecla == 10) {
+                    checkResult();
+                }
+            }
+        });
+        guessButton.addActionListener(new ActionListener() {
+            //@Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                checkResult();
+            }
+        });
+        playAgainButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                initialSetup();
+            }
+        });
+    }
 
-        //initial setup
+    public static void main(String[] args) {
         GuessingGame juego = new GuessingGame();
         JFrame frame = new JFrame("Guessing Game");
         frame.setContentPane(juego.gameView);
@@ -66,25 +105,8 @@ public class GuessingGame {
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         frame.setLocation(dim.width / 2 - frame.getSize().width / 2, dim.height / 2 - frame.getSize().height / 2);
         frame.setVisible(true);
-        juego.theNumber = (int) (Math.random() * 100) + 1;
 
-        juego.numberField.addKeyListener(new KeyAdapter() {
-            @Override
-            public void keyTyped(KeyEvent e) {
-                super.keyTyped(e);
-                int tecla = e.getKeyChar();
-                if (tecla == 10) {
-                    juego.checkResult();
-                }
-            }
-        });
-
-        juego.guessButton.addActionListener(new ActionListener() {
-            //@Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                juego.checkResult();
-            }
-        });
-
+        juego.initialSetup();
+        juego.setListeners();
     }
 }
