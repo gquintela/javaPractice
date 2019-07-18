@@ -47,6 +47,8 @@ public class GuessingGame {
         String guess = numberField.getText();
         if (!isNumeric(guess) || Integer.parseInt(guess) < 1 || Integer.parseInt(guess) > 100) {
             infoText.setText("Choose a valid number between 1 and 100!");
+            numberField.requestFocus();
+            numberField.selectAll();
         } else {
             int myGuess = Integer.parseInt(guess);
 
@@ -55,8 +57,12 @@ public class GuessingGame {
             numberGuess.setText(String.valueOf(oldNumber));
             if (myGuess > theNumber) {
                 infoText.setText("Go lower!!");
+                numberField.requestFocus();
+                numberField.selectAll();
             } else if (myGuess < theNumber) {
                 infoText.setText("Go higher!!");
+                numberField.requestFocus();
+                numberField.selectAll();
             } else {
                 //   frame.setVisible(false);
                 infoText.setText("You won! The number was " + theNumber);
@@ -64,11 +70,10 @@ public class GuessingGame {
                 txtGuessNumber.setVisible(false);
                 numberField.setVisible(false);
                 playAgainButton.setEnabled(true);
-                // System.out.println("You took only " + counter + " guesses!");
+                playAgainButton.requestFocus();
             }
         }
-        numberField.requestFocus();
-        numberField.selectAll();
+
     }
 
     private void setListeners(){
@@ -94,6 +99,17 @@ public class GuessingGame {
                 initialSetup();
             }
         });
+        playAgainButton.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                int tecla = e.getKeyChar();
+                if (tecla == 10) {
+                    initialSetup();
+                }
+            }
+        });
+
     }
 
     public static void main(String[] args) {

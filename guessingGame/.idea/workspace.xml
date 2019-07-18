@@ -9,8 +9,6 @@
     <list default="true" id="8a8e9a7d-6394-494c-a44d-71cfc9f90506" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/guessingGame_jar/guessingGame.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/guessingGame_jar/guessingGame.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/guessingGame/com/guessingGame/GuessingGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/guessingGame/com/guessingGame/GuessingGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/guessingGame/GuessingGame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guessingGame/GuessingGame.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,14 +26,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="423">
+              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2921#2922#0" expanded="true" />
-                <element signature="e#2966#2967#0" expanded="true" />
-                <element signature="e#3122#3123#0" expanded="true" />
-                <element signature="e#3168#3169#0" expanded="true" />
+                <element signature="e#3057#3058#0" expanded="true" />
+                <element signature="e#3102#3103#0" expanded="true" />
+                <element signature="e#3258#3259#0" expanded="true" />
+                <element signature="e#3304#3305#0" expanded="true" />
+                <element signature="e#3357#3667#0" expanded="true" />
+                <element signature="e#3666#3667#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +114,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,18 +176,20 @@
       <workItem from="1563288519935" duration="2321000" />
       <workItem from="1563292759743" duration="8886000" />
       <workItem from="1563307982744" duration="43000" />
-      <workItem from="1563412034925" duration="674000" />
+      <workItem from="1563412034925" duration="746000" />
+      <workItem from="1563412796067" duration="127000" />
+      <workItem from="1563413018629" duration="270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13153000" />
+    <option name="totallyTimeSpent" value="13622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26467448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2710779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -202,9 +204,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3293348" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27529925" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2742111" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -257,6 +259,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3057#3058#0" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3258#3259#0" expanded="true" />
+            <element signature="e#3304#3305#0" expanded="true" />
+            <element signature="e#3357#3667#0" expanded="true" />
+            <element signature="e#3666#3667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -266,20 +284,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2921#2922#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3168#3169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
   </component>
   <component name="masterDetails">
