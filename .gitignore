@@ -4,14 +4,14 @@ guessingGame/bin/*
 guessingGame/.settings/*
 guessingGame/guessingGame.iml
 
-guessingGame/out/*
-guessingGame/.idea/*
-guessingGame/bin/*
-guessingGame/.settings/*
-guessingGame/guessingGame.iml
+HiLo/out/*
+HiLo/.idea/*
+HiLo/bin/*
+HiLo/.settings/*
+HiLo/Hilo.iml
 
-guessingGame/out/*
-guessingGame/.idea/*
-guessingGame/bin/*
-guessingGame/.settings/*
-guessingGame/guessingGame.iml
+mcdJava/out/*
+mcdJava/.idea/*
+mcdJava/bin/*
+mcdJava/.settings/*
+mcdJava/mcdJava.iml
