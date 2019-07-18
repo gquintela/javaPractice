@@ -50,6 +50,8 @@ public class GuessingGame {
                 numberField.setVisible(false);
                 // System.out.println("You took only " + counter + " guesses!");
             }
+            numberField.requestFocus();
+            numberField.selectAll();
         }
     }
 
