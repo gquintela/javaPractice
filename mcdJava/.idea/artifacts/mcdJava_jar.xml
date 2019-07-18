@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="mcdJava:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mcdJava_jar</output-path>
+    <root id="archive" name="mcdJava.jar">
+      <element id="module-output" name="mcdJava" />
+    </root>
+  </artifact>
+</component>

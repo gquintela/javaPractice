@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="guessingGame:jar" />
+      <artifact name="android" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8e9a7d-6394-494c-a44d-71cfc9f90506" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HiLo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HiLo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HiLo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HiLo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6621ef39-0477-4638-b226-6beaa4a41e16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mcdJava_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mcdJava/McdJava$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mcdJava/McdJava$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mcdJava/McdJava$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mcdJava/McdJava$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mcdJava/McdJava$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mcdJava/McdJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/McdJava.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcdJava/McdJava.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/McdJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mcdJava/McdJava.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,56 +31,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mcdJava/McdJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="212">
+              <caret line="101" column="11" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#2269#2542#0" expanded="true" />
+                <element signature="e#2541#2542#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4218">
-              <caret line="222" column="12" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1600" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/artifacts/guessingGame_jar.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.form">
+        <entry file="file://$PROJECT_DIR$/src/com/mcdJava/McdJava.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
@@ -86,23 +61,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>numer</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/guessingGame/mainForm.form" />
-        <option value="$PROJECT_DIR$/src/com/guessingGame/mainForm.java" />
-        <option value="$PROJECT_DIR$/src/com/guessingGame/Game.form" />
-        <option value="$PROJECT_DIR$/src/com/guessingGame/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/guessingGame/GuessingGame.form" />
-        <option value="$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java" />
+        <option value="$PROJECT_DIR$/src/mcdJava.form" />
+        <option value="$PROJECT_DIR$/src/mcdJava.java" />
+        <option value="$PROJECT_DIR$/src/McdJava.form" />
+        <option value="$PROJECT_DIR$/src/McdJava.java" />
+        <option value="$PROJECT_DIR$/src/com/mcdJava/McdJava.java" />
       </list>
     </option>
   </component>
@@ -118,37 +87,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="guessingGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guessingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="mcdJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="guessingGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guessingGame" type="462c0819:PsiDirectoryNode" />
+              <item name="mcdJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcdJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcdJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcdJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mcdJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mcdJava" type="462c0819:PsiDirectoryNode" />
+              <item name="McdJava" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/mcdJava" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,13 +159,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guessingGame.GuessingGame" />
-      <module name="guessingGame" />
+  <component name="RunManager" selected="Application.McdJava (1)">
+    <configuration name="McdJava (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mcdJava.McdJava" />
+      <module name="mcdJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guessingGame.*" />
+          <option name="PATTERN" value="com.mcdJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,9 +173,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="McdJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="McdJava" />
+      <module name="mcdJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessingGame" />
+        <item itemvalue="Application.McdJava (1)" />
+        <item itemvalue="Application.McdJava" />
       </list>
     </recent_temporary>
   </component>
@@ -187,25 +192,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a8e9a7d-6394-494c-a44d-71cfc9f90506" name="Default Changelist" comment="" />
-      <created>1563287797842</created>
+      <changelist id="6621ef39-0477-4638-b226-6beaa4a41e16" name="Default Changelist" comment="" />
+      <created>1563375455803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563287797842</updated>
-      <workItem from="1563287799320" duration="684000" />
-      <workItem from="1563288519935" duration="2321000" />
-      <workItem from="1563292759743" duration="8886000" />
-      <workItem from="1563307982744" duration="43000" />
+      <updated>1563375455803</updated>
+      <workItem from="1563375459144" duration="7014000" />
+      <workItem from="1563382678464" duration="256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11955000" />
+    <option name="totallyTimeSpent" value="7270000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2614728" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25289574" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -213,8 +216,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32880434" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32880434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39945653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,7 +225,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32746956" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -239,25 +242,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mcdJava/McdJava.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop/javax/swing/JComponent.class">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop/java/awt/event/ActionListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="236" column="17" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+        <state relative-caret-position="133">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/mcdJava/McdJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        <state relative-caret-position="212">
+          <caret line="101" column="11" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#2269#2542#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guessingGame/GuessingGame.form">
+    <entry file="file://$PROJECT_DIR$/src/com/mcdJava/McdJava.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
   </component>
@@ -266,7 +285,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>guessingGame:jar</last-edited>
+          <last-edited>mcdJava:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
